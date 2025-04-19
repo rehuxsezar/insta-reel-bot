@@ -1,1 +1,17 @@
-
+{
+  "name": "insta-reel-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to download Instagram Reels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "insta-fetcher": "^1.2.8",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
